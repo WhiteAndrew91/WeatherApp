@@ -1,0 +1,885 @@
+Script started on Sun Sep  6 13:28:06 2020
+[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2004hnpm start      n  hhelp[?2004l
+zsh: command not found: help
+[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2004h..help[?2004l
+zsh: command not found: .help
+[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2004hnnpm help[?2004l
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    clean-install, clean-install-test, completion, config,
+    create, ddp, dedupe, deprecate, dist-tag, docs, doctor,
+    edit, explore, fund, get, help, help-search, hook, i, init,
+    install, install-ci-test, install-test, it, link, list, ln,
+    login, logout, ls, org, outdated, owner, pack, ping, prefix,
+    profile, prune, publish, rb, rebuild, repo, restart, root,
+    run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, team, test, token, tst, un,
+    uninstall, unpublish, unstar, up, update, v, version, view,
+    whoami
+
+npm <command> -h  quick help on <command>
+npm -l            display full usage info
+npm help <term>   search for help on <term>
+npm help npm      involved overview
+
+Specify configs in the ini-formatted file:
+    /Users/andrei/.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@6.14.8 /usr/local/lib/node_modules/npm
+[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2004hnnpm -l[?2004l
+
+Usage: npm <command>
+
+where <command> is one of:
+
+    access          npm access public [<package>]
+                    npm access restricted [<package>]
+                    npm access grant <read-only|read-write> <scope:team> [<package>]
+                    npm access revnnpm -l[?2004l
+
+Usage: npm <command>
+
+where <command> is one of:
+
+    access          npm access public [<package>]
+                    npm access restricted [<package>]
+                    npm access grant <read-only|read-write> <scope:team> [<package>]
+                    npm access revoke <scope:team> [<package>]
+                    npm access 2fa-required [<package>]
+                    npm access 2fa-not-required [<package>]
+                    npm access ls-packages [<user>|<scope>|<scope:team>]
+                    npm access ls-collaborators [<package> [<user>]]
+                    npm access edit [<package>]
+
+    adduser         npm adduser [--registry=url] [--scope=@orgname] [--auth-type=legacy] [--always-auth]
+                    
+                    aliases: login, add-user
+
+    audit           
+                    npm audit [--json] [--production]
+                    npm audit fix [--force|--package-lock-only|--dry-run|--production|--only=(dev|prod)]
+
+    bin             npm bin [--global]
+
+    bugs            npm bugs [<pkgname>]
+                    
+                    alias: issues
+
+    cache           npm cache add <tarball file>
+                    npm cache add <folder>
+                    npm cache add <tarball url>
+                    npm cache add <git url>
+                    npm cache add <name>@<version>
+                    npm cache clean
+                    npm cache verify
+
+    ci              npm ci
+
+    completion      source <(npm completion)
+
+    config          npm config set <key> <value>
+                    npm config get [<key>]
+                    npm config delete <key>
+                    npm config list [--json]
+                    npm config edit
+                    npm set <key> <value>
+                    npm get [<key>]
+                    
+                    alias: c
+
+    dedupe          npm dedupe
+                    
+                    aliases: ddp, find-dupes
+
+    deprecate       npm deprecate <pkg>[@<version>] <message>
+
+    dist-tag        npm dist-tag add <pkg>@<version> [<tag>]
+                    npm dist-tag rm <pkg> <tag>
+                    npm dist-tag ls [<pkg>]
+                    
+                    alias: dist-tags
+
+    docs            npm docs <pkgname>
+                    npm docs .
+                    
+                    alias: home
+
+    doctor     ..help[?2004l
+zsh: command not found: .help
+[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2004hnnpm help[?2004l
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    clean-install, clean-install-test, completion, config,
+    create, ddp, dedupe, deprecate, dist-tag, docs, doctor,
+    edit, explore, fund, get, help, help-search, hook, i, init,
+    install, install-ci-test, install-test, it, link, list, ln,
+    login, logout, ls, org, outdated, owner, pack, ping, prefix,
+    profile, prune, publish, rb, rebuild, repo, restart, root,
+    run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, team, test, token, tst, un,
+    uninstall, unpublish, unstar, up, update, v, version, view,
+    whoami
+
+npm <command> -h  quick help on <command>
+npm -l            display full usage info
+npm help <term>   search for help on <term>
+npm help npm      involved overview
+
+Specify configs in the ini-formatted file:
+    /Users/andrei/.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@6.14.8 /usr/local/lib/nod`
+                    
+                    alias: cit
+
+    install-test    
+                    npm install-test [args]
+                    Same args as `npm install`
+                    
+                    alias: it
+
+    link            npm link (in package dir)
+                    pm ci`
+                    
+                    alias: cit
+
+    install-test    
+                    npm install-test [args]
+                    Same args as `npm install`
+                    
+                    alias: it
+
+    link            npm link (in package dir)
+                    npm link [<@scope>/]<pkg>[@<version>]
+                    
+                    alias: ln
+
+    logout          npm logout [--registry=<url>] [--scope=<@scope>]
+
+    ls              npm ls [[<@scope>/]<pkg> ...]
+                    
+                    aliases: list, la, ll
+
+    org             npm org set orgname username [developer | admin | owner]
+                    npm org rm orgname username
+                    npm org ls orgname [<username>]
+
+    outdated        npm outdated [[<@scope>/]<pkg> ...]
+
+    owner           npm owner add <user> [<@scope>/]<pkg>
+                    npm owner rm <user> [<@scope>/]<pkg>
+                    npm owner ls [<@scope>/]<pkg>
+                    
+                    alias: author
+
+    pack            npm pack [[<@scope>/]<pkg>...] [--dry-run]
+
+    ping            npm ping
+                    ping registry
+
+    prefix          npm prefix [-g]
+
+    profile         npm profile enable-2fa [auth-only|auth-and-writes]
+                    npm profile disable-2fa
+                    npm profile get [<key>]
+                    npm profile set <key> <value>
+
+    prune           npm prune [[<@scope>/]<pkg>...] [--production]
+
+    publish         npm publish [<tarball>|<folder>] [--tag <tag>] [--access <public|restricted>] [--dry-run]
+                    
+                    Publishes '.' if no argument supplied
+                    
+                    Sets tag `latest` if no --tag specified
+
+    rebuild         npm rebuild [[<@scope>/<name>]...]
+                    
+                    alias: rb
+
+    repo            npm repo [<pkg>]
+
+    restart         npm restart [-- <args>]
+
+    root            npm root [-g]
+
+    run-script      npm run-script <command> [-- <args>...]
+                    
+                    aliases: run, rum, urn
+
+    search          npm search [--long] [search terms ...]
+                    
+                    aliases: s, se, find
+
+    set             npm set <key> <value> (See `npm config`)
+
+    shrinkwrap      npm shrinkwrap
+
+    star            npm star [<pkg>...]
+                    npm unstar [<pkg>...]
+                    
+                    alias: unstar
+
+    stars           npm stars [<user>]
+
+    start           npm start [-- <args>]
+
+    stop            npm stop [-- <args>]
+
+    team            npm team create <scope:team> [--otp <otpcode>]
+                    npm team destroy <scope:team> [--otp <otpcode>]
+                    npm team add <scope:team> <user> [--otp <otpcode>]
+                    npm team rm <scope:team> <user> [--otp <otpcode>]
+                    npm team ls <scope>|<scope:team>
+                    npm team edit <scope:team>
+
+    test            npm test [-- <args>]
+                    
+                    aliases: tst, t
+
+    token           npm token list
+                    npm token revoke <tokenKey>
+                    npm token create [--read-only] [--cidr=list]
+                    
+
+    uninstall       npm uninstall [<@scope>/]<pkg>[@<version>]... [--save-prod|--save-dev|--save-optional] [--no-save]
+                    
+                    aliases: un, unlink, remove, rm, r
+
+    unpublish       
+                    npm unpublish [<@scope>/]<pkg>@<version>
+                    npm unpublish [<@scope>/]<pkg> --force
+
+    update          npm update [-g] [<pkg>...]
+                    
+                    aliases: up, upgrade, udpate
+
+    version      n' to view a package's published version
+                    'npm ls' to inspect current package/dependency versions
+
+    view            npm view [<@scope>/]<pkg>[@<version>] [<field>[.subfield]...]
+                    
+                    aliases: v, info, show
+
+    whoami          npm whoami [--registry <registry>]
+                    (just prints username according to given registry)
+
+npm <command> -h  quick help on <command>
+npm -l            display full usage info
+npm help <term>   search for help on <term>
+npm help npm      involved overview
+
+Specify configs in the ini-formatted file:
+    /Users/andrei/.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@6.14.8 /usr/local/lib/node_modules/npm
+[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2004hnnpm stop[?2004l
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m missing script: stop
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /Users/andrei/.npm/_logs/2020-09-06T10_28_58_356Z-debug.log
+[0m[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2004hnpm stop[?2004l
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m missing script: stop
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /Users/andrei/.npm/_logs/2020-09-06T10_29_41_825Z-debug.log
+[0m[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2004hnpm stop[1Cstopcstoprstopistoppstoptstop stop[?2004l
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    clean-install, clean-install-test, completion, config,
+    create, ddp, dedupe, deprecate, dist-tag, docs, doctor,
+    edit, explore, fund, get, help, help-search, hook, i, init,
+    install, install-ci-test, install-test, it, link, list, ln,
+    login, logout, ls, org, outdated, owner, pack, ping, prefix,
+    profile, prune, publish, rb, rebuild, repo, restart, root,
+    run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, team, test, token, tst, un,
+    uninstall, unpublish, unstar, up, update, v, version, view,
+    whoami
+
+npm <command> -h  quick help on <command>
+npm -l            display full usage info
+npm help <term>   search for help on <term>
+npm help npm      involved overview
+
+Specify configs in the ini-formatted file:
+    /Users/andrei/.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@6.14.8 /usr/local/lib/node_modules/npm
+
+Did you mean this?
+    cit
+[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2004hy[?2004l
+zsh: command not found: y
+[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2004hccit[?2004l
+zsh: command not found: cit
+[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2004hcity  npm sccit[?20 stop  stop  stop  stop  stop  stop c stopi stopt stop[?2004l
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mprepare[0m removing existing node_modules/ before installation
+[0m[?25l⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing etion[0m[de_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installatio�░░░��[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░▩ ⠙ : [░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ : [30;43mWARN[0m [35mprepare[0m removing existing node_modules/ before installation[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠸ extractTree: [34;40mverb[0m [35mextractTree[0m extracting dependencies to node_modules/[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠦ extractTree: [34;40mverb[0m [35mextractTree[0m extracting dependencies to node_modules/[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠦ extractTree: [34;40mverb[0m [35mextractTree[0m extracting dependencies to node_modules/[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m react-external-link@1.1.1 extracted to /Users/andrei/my-app/node_modules/react-external-link (189ms)[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m react@16.13.1 extracted to /Users/andrei/my-app/node_modules/react (230ms)[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m object-assign@4.1.1 extracted to /Users/andrei/my-app/node_modules/object-assign (86ms)[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m�░░░act[0m object-assign@4.1.1 extracted to /Users/andrei/my-app/node_modules/object-assign (86ms)[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m object-assign@4.1.1 extracted to /Users/andrei/my-app/node_modules/object-assign (86ms)[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m react-scripts@3.4.3 extracted to /Users/andrei/my-app/node_modules/react-scripts (451ms)[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m css.escape@1.5.1 extracted to /Users/andrei/my-app/node_modules/css.escape (223ms)[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m css.escape@1.5.1 extracted to /Users/andrei/my-app/node_modules/css.escape (223ms)[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m redent@3.0.0 extracted to /Users/andrei/my-app/node_modules/redent (347ms)[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m jest-matcher-utils@24.9.0 extracted to /Users/andrei/my-app/node_modules/jest-matcher-utils (407ms)[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m chalk@2.4.2 extracted to /Users/andrei/my-app/node_modules/chalk (522ms)[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m chalk@2.4.2 extracted to /Users/andrei/my-app/node_modules/chalk (522ms)[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m prop-types@15.7.2 extracted to /Users/andrei/my-app/node_modules/prop-types (700ms)[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m camelcase@5.3.1 extracted to /Users/andrei/my-app/node_modules/react-scripts/node_modules/camelcase[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m ts-pnp@1.1.6 extracted to /Users/andrei/my-app/node_modules/ts-pnp (587ms)[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m strip-indent@3.0.0 extracted to /Users/andrei/my-app/node_modules/strip-indent (429ms)[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m jest-get-type@24.9.0 extracted to /Users/andrei/my-app/node_modules/jest-get-type (468ms)[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m semver@6.3.0 extracted to /Users/andrei/my-app/node_modules/react-scripts/node_modules/semver (853ms[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m eslint-loader@3.0.3 extracted to /Users/andrei/my-app/node_modules/eslint-loader (918ms)[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m postcss-preset-env@6.7.0 extracted to /Users/andrei/my-app/node_modules/postcss-preset-env (991ms)[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m confusing-browser-globals@1.0.9 extracted to /Users/andrei/my-app/node_modules/confusing-browser-glo[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m terser-webpack-plugin@2.3.8 extracted to /Users/andrei/my-app/node_modules/terser-webpack-plugin (11[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m inherits@2.0.4 [0m⸩ ⠴to /Users/andrei/my-app/node_modules/inherits (647ms)[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m @babel/preset-react@7.10.4 extracted to /Users/andrei/my-app/node_modules/@babel/preset-react (664ms[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m urix@0.1.0 extracted to /Users/andrei/my-app/node_modules/urix (788ms)[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m min-indent@1.0.1 extracted to /Users/andrei/my-app/node_modules/min-indent (669ms)[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m @babel/plugin-proposal-decorators@7.8.3 extracted to /Users/andrei/my-app/node_modules/@babel/plugin[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m babel-plugin-macros@2.8.0 extracted to /Users/andrei/my-app/node_modules/babel-plugin-macros (868ms)[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m babel-plugin-macros@2.8.0 extracted to /Users/andrei/my-app/node_modules/babel-plugin-macros (868ms)[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m find-cache-dir@2.1.0 extracted to /Users/andrei/my-app/node_modules/find-cache-dir (756ms)[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m loader-fs-cache@1.0.3 extracted to /Users/andrei/my-app/node_modules/loader-fs-cache (699ms)[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m @babel/plugin-transform-react-display-name@7.8.3 extracted to /Users/andrei/my-app/node_modules/babe[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m schema-utils@1.0.0 extracted to /Users/andrei/my-app/node_modules/style-loader/node_modules/schema-u[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m convert-source-map@1.7.0 extracted to /Users/andrei/my-app/node_modules/convert-source-map (749ms)[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m p-limit@2.3.0 extracted to /Users/andrei/my-app/node_modules/p-limit (788ms)[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m serialize-javascript@4.0.0 extracted to /Users/andrei/my-app/node_modules/serialize-javascript (912m[0m[K⸨[7m  [27m[90m░░░░░░░░░░░░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m @babel/plugin-syntax-flow@7.10.4 extracted to /Users/andrei/my-app/node_modules/@babel/plugin-syntax[0m[K⸨[7m  [27m[90m░░░░░░░░░░░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m lodash.debounce@4.0.8 extracted to /Users/andrei/my-app/node_modules/lodash.debounce (684ms)[0m[K⸨[7m  [27m[90m░░░░░░░░░░░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m decode-uri-component@0.2.0 extracted to /Users/andrei/my-app/node_modules/decode-uri-component (612m[0m[K⸨[7m  [27m[90m░░░░░░░░░░░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m find-up@3.0.0 extracted to /Users/andrei/my-app/node_modules/babel-plugin-istanbul/node_modules/find[0m[K⸨[7m  [27m[90m░░░░░░░░░░░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m @types/babel__generator@7.6.1 extracted to /Users/andrei/my-app/nod[0m find-u@types/babel__generator[0m[K⸨[7m  [27m[90m░░░░░░░░░░░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m @types/babel__traverse@7.0.13 extracted to /Users/andrei/my-app/node_modules/@types/babel__traverse[0m[K⸨[7m  [27m[90m░░░░░░░░░░░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m import-cwd@2.1.0 extracted to /Users/andrei/my-app/node_modules/import-cwd (598ms)[0m[K⸨[7m  [27m[90m░░░░░░░░░░░░░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m p-try@2.2.0 extracted to /Users/andrei/my-app/node_modules/p-try (618ms)[0m[K⸨[7m  [27m[90m░░░░░░░░░░░░░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m @types/eslint-visitor-keys@1.0.0 extracted to /Users/andrei/my-app/node_modules/@types/eslint-visito[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m arr-union@3.1.0 extracted to /Users/andrei/my-app/node_modules/arr-union (617ms)[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m is-plain-object@2.0.4 extracted to /Users/andrei/my-app/node_modules/is-plain-object (656ms)[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m @types/istanbul-lib-coverage@2.0.3 extracted to /Users/andrei/my-app/node_modules/@types/istanbul-li[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m astral-regex@1.0.0 extracted to /Users/andrei/my-app/node_modules/astral-regex (587ms)[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m @svgr/babel-plugin-svg-em-dimensions@4.2.0 extracted to /Users/andrei/my-app/node_modules/@svgr/babe[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m find-up@3.0.0 extracted to /Users/andrei/my-app/node_modules/pkg-dir/node_modules/find-up (722ms)[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m pkg-dir@1.0.0 extracted to /Users/andrei/my-app/node_modules/loader-fs-cache/node_modules/pkg-dir (6[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m require-main-filename@2.0.0 extracted to /Users/andrei/my-app/node_modules/require-main-filename (72[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m import-from@2.1.0 extracted to /Users/andrei/my-app/node_modules/import-from (708ms)[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m lodash.template@4.5.0 extracted to /Users/andrei/my-app/node_modules/lodash.template (856ms)[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m convert-source-map@0.3.5 extracted to /Users/andrei/my-app/node_modules/rework/node_modules/convert-[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m util.promisify@1.0.1 extracted to /Users/andrei/my-app/node_modules/util.promisify (1382ms)[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m json-stable-stringify@1.0.1 extracted to /Users/andrei/my-app/node_modules/json-stable-stringify (14[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m graceful-fs@4.2.4 extracted to /Users/andrei/my-app/node_modules/graceful-fs (948ms)[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠼ extractm[K⸨[sill[0m [35mextract[0m @csstools/convert-colors@1.4.0 extracted to /Users/andrei/my-app/node_modules/@csstools/convert-colo[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m @babel/preset-env@7.11.5 extracted to /Users/andrei/my-app/node_modules/@babel/preset-env (3165ms)[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m @types/istanbul-lib-report@3.0.0 extracted to /Users/andrei/my-app/node_modules/@types/istanbul-lib-[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m open@7.2.1 extracted to /Users/andrei/my-app/node_modules/open (1203ms)[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m promise@8.1.0 extracted to /Users/andrei/my-app/node_modules/promise (3498ms)[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m jest-watcher@24.9.0 extracted to /Users/andrei/my-app/node_modules/jest-watcher (2613ms)[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m jest-util@24.9.0 extracted to /Users/andrei/my-app/node_modules/jest-util (3688ms)[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m cross-spawn@7.0.1 extracted to /Users/andrei/my-app/node_modules/react-dev-utils/node_modules/cross-[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m semver@6.3.0 extracted to /Users/andrei/my-app/node_modules/terser-webpack-plugin/node_modules/semve[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m lodash._reinterpolate@3.0.0 extracted to /Users/andrei/my-app/node_modules/lodash._reinterpolate (10[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m promise-inflight@1.0.1 extracted to /Users/andrei/my-app/node_modules/promise-inflight (1045ms)[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m global-prefix@3.0.0 extracted to /Users/andrei/my-app/node_modules/global-prefix (1064ms)[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m node-modules-regexp@1.0.0 extracted to /Users/andrei/my-app/node_modules/node-modules-regexp (1061ms[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m inflight@1.0.6 extracted to /Users/andrei/my-app/node_modules/inflight (1079ms)[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m for-in@1.0.2 extracted to /Users/andrei/my-app/node_modules/for-in (1082ms)[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m is-extendable@0.1.1 extracted to /Users/andrei/my-app/node_modules/is-extendable (1076ms)[0m[K⸨[7m     [27m[90m░░░░░░░░░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m kind-of@2.0.1 extracted to /Users/andrei/my-app/node_modules/shallow-clone/node_modules/kind-of (117[0m[K⸨[7m     [27m[90m░░░░░░░░░░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m lazy-cache@0.2.7 extracted to /Users/andrei/my-app/node_modules/shallow-clone/node_modules/lazy-cach[0m[K⸨[7m     [27m[90m░░░░░░░░░░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m to-regex@3.0.2 extracted to /Users/andrei/my-app/node_modules/to-regex (861ms)[0m[K⸨[7m     [27m[90m░░░░░░░░░░░░░[0mone/node_mtractTree: [7msill[0m [35mextract[0m shebang-command@2.0.0 extracted to /Users/andrei/my-app/node_modules/shebang-command (815ms)[0m[K⸨[7m     [27m[90m░░░░░░░░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m caller-callsite@2.0.0 extracted to /Users/andrei/my-app/node_modules/caller-callsite (816ms)[0m[K⸨[7m     [27m[90m░░░░░░░░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m run-queue@1.0.3 extracted to /Users/andrei/my-app/node_modules/run-queue (755ms)[0m[K⸨[7m     [27m[90m░░░░░░░░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m @babel/plugin-transform-unicode-regex@7.10.4 extracted to /Users/andrei/my-app/node_modules/@babel/p[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m arrify@1.0.1 extracted to /Users/andrei/my-app/node_modules/arrify (851ms)[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m path-type@3.0.0 extracted to /Users/andrei/my-app/node_modules/dir-glob/node_modules/path-type (950m[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m yallist@3.1.1 extracted to /Users/andrei/my-app/node_modules/cacache/node_modules/yallist (902ms)[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m emojis-list@2.1.0 extracted to /Users/andrei/my-app/node_modules/react-dev-utils/node_modules/emojis[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m @babel/plugin-transform-unicode-escapes@7.10.4 extracted to /Users/andrei/my-app/node_modules/@babel[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m pinkie@2.0.4 extracted to /Users/andrei/my-app/node_modules/pinkie (815ms)[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m @babel/helper-define-map@7.10.5 extracted to /Users/andrei/my-app/node_modules/@babel/helper-define-[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m is-descriptor@1.0.2 extracted to /Users/andrei/my-app/node_modules/define-property/node_modules/is-d[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m callsites@2.0.0 extracted to /Users/andrei/my-app/node_modules/caller-callsite/node_modules/callsite[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m repeat-element@1.1.3 extracted to /Users/andrei/my-app/node_modules/repeat-element (606ms)[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m fill-range@4.0.0 extracted to /Users/andrei/my-app/node_modules/fill-range (654ms)[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m base@0.11.2 extracted to /Users/andrei/my-app/node_modules/base (661ms)[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m cssnano-preset-default@4.0.7 extracted to /Users/andrei/my-app/node_modules/cssnano-preset-default ([0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m extend-shallow@2.0.1 extracted to /Users/andrei/my-app/node_modules/snapdragon/node_modules/extend-s[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m webpack-dev-server@3.11.0 extracted to /Users/andrei/my-app/node_modules/webpack-dev-server (6094ms)[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠦ extractTree: [7msill    [27mxtract[0m iferr@0.1.5 extracted to /Users/andrei/my-app/node_modules/iferr (916ms)[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m extend-shallow@2.0.1 extracted to /Users/andrei/my-app/node_modules/extglob/node_modules/extend-shal[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m ansi-regex@3.0.0 extracted to /Users/andrei/my-app/node_modules/string-length/node_modules/ansi-rege[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m semver@5.7.1 extracted to /Users/andrei/my-app/node_modules/@babel/compat-data/node_modules/semver ([0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m exit@0.1.2 extracted to /Users/andrei/my-app/node_modules/exit (2240ms)[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m hosted-git-info@2.8.8 extracted to /Users/andrei/my-app/node_modules/hosted-git-info (1203ms)[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m json-parse-even-better-errors@2.3.1 extracted to /Users/andrei/my-app/node_modules/json-parse-even-b[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m repeat-string@1.6.1 extracted to /Users/andrei/my-app/node_modules/repeat-string (927ms)[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m cli-cursor@3.1.0 extracted to /Users/andrei/my-app/node_modules/cli-cursor (986ms)[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m json5@2.1.3 extracted to /Users/andrei/my-app/node_modules/json5 (2537ms)[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m postcss-reduce-transforms@4.0.2 extracted to /Users/andrei/my-app/node_modules/postcss-reduce-transf[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m killable@1.0.1 extracted to /Users/andrei/my-app/node_modules/killable (934ms)[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m debug@2.6.9 extracted to /Users/andrei/my-app/node_modules/snapdragon/node_modules/debug (1917ms)[0m[K⸨[7m        [27m[90m░░░░░░░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m json5@1.0.1 extracted to /Users/andrei/my-app/node_modules/adjust-sourcemap-loader/node_modules/json[0m[K⸨[7m        [27m[90m░░░░░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m cli-width@2.2.1 extracted to /Users/andrei/my-app/node_modules/react-dev-utils/node_modules/cli-widt[0m[K⸨[7m        [27m[90m░░░░░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m is-absolute-url@3.0.3 extracted to /Users/andrei/my-app/node_modules/webpack-dev-server/node_modules[0m[K⸨[7m        [27m[90m░░░░░░░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m @babel/parser@7.11.5 extracted to /Users/andrei/my-app/node_modules/@babel/parser (6874ms)[0m[K⸨[7m        [27m[90m░░░░░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m js-yaml@3.14.0 extracted to /Users/andrei/my-app/node_modules/js-yaml (5500ms)[0m[K⸨[7m        [27m[90m░░░░░░░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m regjsgen@0.5.2 extracted to /Users/andrei/my-app/node_modules/regjsgen (979ms)[0m[K⸨[7m        [27m[90m░░░░░░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m regjsgen@0.5.2 extracted to /Users/andrei/my-app/node_modules/regjsgen (979ms)[0m[K⸨[7m        [27m[9sgen@0.5.2�░░░░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m to-object-path@0.3.0 extracted to /Users/andrei/my-app/node_modules/to-object-path (855ms)[0m[K⸨[7m        [27m[90m░░░░░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m is-data-descriptor@0.1.4 extracted to /Users/andrei/my-app/node_modules/is-data-descriptor (768ms)[0m[K⸨[7m        [27m[90m░░░░░░░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m is-svg@3.0.0 extracted to /Users/andrei/my-app/node_modules/is-svg (772ms)[0m[K⸨[7m        [27m[90m░░░░░░░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m spdx-license-ids@3.0.5 extracted to /Users/andrei/my-app/node_modules/spdx-license-ids (796ms)[0m[K⸨[7m        [27m[90m░░░░░░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m ansi-regex@2.1.1 extracted to /Users/andrei/my-app/node_modules/webpack-dev-server/node_modules/ansi[0m[K⸨[7m         [27m[90m░░░░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m color@3.1.2 extracted to /Users/andrei/my-app/node_modules/color (840ms)[0m[K⸨[7m         [27m[90m░░░░░░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m camelcase@5.3.1 extracted to /Users/andrei/my-app/node_modules/jest-validate/node_modules/camelcase[0m[K⸨[7m         [27m[90m░░░░░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m caniuse-api@3.0.0 extracted to /Users/andrei/my-app/node_modules/caniuse-api (1127ms)[0m[K⸨[7m         [27m[90m░░░░░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m cssnano-util-get-match@4.0.0 extracted to /Users/andrei/my-app/node_modules/cssnano-util-get-match ([0m[K⸨[7m         [27m[90m░░░░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m ipaddr.js@1.9.1 extracted to /Users/andrei/my-app/node_modules/ipaddr.js (1356ms)[0m[K⸨[7m         [27m[90m░░░░░░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m unicode-property-aliases-ecmascript@1.1.0 extracted to /Users/andrei/my-app/node_modules/unicode-pro[0m[K⸨[7m         [27m[90m░░░░░░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m postcss-value-parser@3.3.1 extracted to /Users/andrei/my-app/node_modules/postcss-svgo/node_modules/[0m[K⸨[7m         [27m[90m░░░░░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m normalize-path@2.1.1 extracted to /Users/andrei/my-app/node_modules/normalize-path (931ms)[0m[K⸨[7m         [27m[90m░░░░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m onetime@5.1.2 extracted to /Users/andrei/my-app/node_modules/onetime (974ms)[0m[K⸨[7m         [27m[90m░░░░░░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m is-data-descriptor@1.0.0 extracted to /Users/andrei/my-app/node_modules/base/node_modules/is-data-de[0m[K⸨[7m         [27m[90m░░░░░░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m html-comment-regex@1.1.2 extracted to /Users/andrei/my-app/node_modules/html-comment-regex (899ms)[0m[K⸨[7m         [27m[90m░░░░░░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m mime-types@2.1.27 extracted to /Users/andrei/my-app/node_modules/mime-types (940ms)[0m[K⸨[7m         [27m[90m░░░░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m unquote@1.1.1 extracted to /Users/andrei/my-app/node_modules/unquote (914ms)[0m[K⸨[7m         [27m[90m░░░░░░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m color-string@1.5.3 extracted to /Users/andrei/my-app/node_modules/color-string (899ms)[0m[K⸨[7m          [27m[90m░░░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m bser@2.1.1 extracted to /Users/andrei/my-app/node_modules/bser (1179ms)[0m[K⸨[7m          [0m color-��░░░░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m sax@1.2.4 extracted to /Users/andrei/my-app/node_modules/sax (1106ms)[0m[K⸨[7m          [27m[90m░░░░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m process-nextick-args@2.0.1 extracted to /Users/andrei/my-app/node_modules/process-nextick-args (784m[0m[K⸨[7m          [27m[90m░░░░░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m css-select-base-adapter@0.1.1 extracted to /Users/andrei/my-app/node_modules/css-select-base-adapter[0m[K⸨[7m          [27m[90m░░░░░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m ip-regex@2.1.0 extracted to /Users/andrei/my-app/node_modules/ip-regex (836ms)[0m[K⸨[7m          [27m[90m░░░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m handle-thing@2.0.1 extracted to /Users/andrei/my-app/node_modules/handle-thing (1067ms)[0m[K⸨[7m          [27m[90m░░░░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m remove-trailing-separator@1.1.0 extracted to /Users/andrei/my-app/node_modules/remove-trailing-separ[0m[K⸨[7m          [27m[90m░░░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m is-regexp@1.0.0 extracted to /Users/andrei/my-app/node_modules/is-regexp (766ms)[0m[K⸨[7m          [27m[90m░░░░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m babel-extract-comments@1.0.0 extracted to /Users/andrei/my-app/node_modules/babel-extract-comments ([0m[K⸨[7m          [27m[90m░░░░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m utils-merge@1.0.1 extracted to /Users/andrei/my-app/node_modules/utils-merge (860ms)[0m[K⸨[7m           [27m[90m░░░░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m array-flatten@1.1.1 extracted to /Users/andrei/my-app/node_modules/express/node_modules/array-flatte[0m[K⸨[7m           [27m[90m░░░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m send@0.17.1 extracted to /Users/andrei/my-app/node_modules/send (987ms)[0m[K⸨[7m           [27m[90m░░░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m statuses@1.5.0 extracted to /Users/andrei/my-app/node_modules/statuses (1040ms)[0m[K⸨[7m           [27m[90m░░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m coa@2.0.2 extracted to /Users/andrei/my-app/node_modules/coa (2066ms)[0m[K⸨[7m           [27m[90m░░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m yargs-parser@13.1.2 extracted to /Users/andrei/my-app/node_modules/yargs-parser (1306ms)[0m[K⸨[7m           [27m[90m░░░░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m react-dom@16.13.1 extracted to /Users/andrei/my-app/node_modules/react-dom (11470ms)[0m[K⸨[7m           [27m[90m░░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m boolbase@1.0.0 extracted to /Users/andrei/my-app/node_modules/boolbase (637ms)[0m[K⸨[7m           [27m[90m░░░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m faye-websocket@0.10.0 extracted to /Users/andrei/my-app/node_modules/faye-websocket (2177ms)[0m[K⸨[7m           [27m[90m░░░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m nth-check@1.0.2 extracted to /Users/andrei/my-app/node_modules/nth-check (789ms)[0m[K⸨[7m           [27m[90m░░░░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m media-typer@0.3.0 extracted to /Users/andrei/my-app/node_modules/media-typer (731ms)[0m[K⸨[7m           [27m[90m░░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m forwarded@0.1.2 extracted to /Users/andrei/my-app/node_modules/forwarded (760ms)[0m[K⸨[7m           [27m[90m░░░░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m prompts@2.3.2 extracted to /Users/andrei/my-app/n��░[0m�s/prompts (6640ms)[0m[K⸨[7m           [27m[90m░░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m semver@7.0.0 extracted to /Users/andrei/my-app/node_modules/core-js-compat/node_modules/semver (4242[0m[K⸨[7m           [27m[90m░░░░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m eslint-plugin-import@2.20.1 extracted to /Users/andrei/my-app/node_modules/eslint-plugin-import (115[0m[K⸨[7m           [27m[90m░░░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m regexp.prototype.flags@1.3.0 extracted to /Users/andrei/my-app/node_modules/regexp.prototype.flags ([0m[K⸨[7m           [27m[90m░░░░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m domutils@1.7.0 extracted to /Users/andrei/my-app/node_modules/domutils (1286ms)[0m[K⸨[7m            [27m[90m░░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m dot-prop@5.2.0 extracted to /Users/andrei/my-app/node_modules/dot-prop (617ms)[0m[K⸨[7m            [27m[90m░░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m chokidar@3.4.2 extracted to /Users/andrei/my-app/node_modules/chokidar (1258ms)[0m[K⸨[7m            [27m[90m░░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m mime@1.6.0 extracted to /Users/andrei/my-app/node_modules/send/node_modules/mime (1210ms)[0m[K⸨[7m            [27m[90m░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m ext@1.4.0 extracted to /Users/andrei/my-app/node_modules/ext (5834ms)[0m[K⸨[7m            [27m[90m░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m clean-css@4.2.3 extracted to /Users/andrei/my-app/node_modules/clean-css (9538ms)[0m[K⸨[7m            [27m[90m░░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m contains-path@0.1.0 extracted to /Users/andrei/my-app/node_modules/contains-path (527ms)[0m[K⸨[7m            [27m[90m░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m worker-rpc@0.1.1 extracted to /Users/andrei/my-app/node_modules/worker-rpc (1627ms)[0m[K⸨[7m            [27m[90m░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m read-pkg-up@2.0.0 extracted to /Users/andrei/my-app/node_modules/eslint-plugin-import/node_modules/r[0m[K⸨[7m            [27m[90m░░░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m workbox-core@4.3.1 extracted to /Users/andrei/my-app/node_modules/workbox-core (3683ms)[0m[K⸨[7m            [27m[90m░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m glob-parent@5.1.1 extracted to /Users/andrei/my-app/node_modules/glob-parent (529ms)[0m[K⸨[7m            [27m[90m░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m ajv@6.12.4 extracted to /Users/andrei/my-app/node_modules/ajv (10613ms)[0m[K⸨[7m            [27m[90m░░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m string.prototype.matchall@4.0.2 extracted to /Users/andrei/my-app/node_modules/string.prototype.matc[0m[K⸨[7m            [27m[90m░░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m debug@2.6.9 extracted to /Users/andrei/my-app/node_modules/body-parser/node_modules/debug (1349ms)[0m[K⸨[7m            [27m[90m░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m entities@1.1.2 extracted to /Users/andrei/my-app/node_modules/htmlparser2/node_modules/entities (120[0m[K⸨[7m            [27m[90m░░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m array.prototype.flat@1.2.3 extracted to /Users/andrei/my-app/node_modules/array.prototype.flat (1100[0m[K⸨[7m            [27m[90m░░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m scheduler@0.19.1 extracted to /Users/andrei/my-app/node_modules/scheduler (1751ms)[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠼ extractTree: [7msill[0m totype.flat[0m @jest/core@24.9.0 extracted to /Users/andrei/my-app/node_modules/@jest/core (8061ms)[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m @jest/core@24.9.0 extracted to /Users/andrei/my-app/node_modules/@jest/core (8061ms)[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m binary-extensions@2.1.0 extracted to /Users/andrei/my-app/node_modules/binary-extensions (495ms)[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m @hapi/joi@15.1.1 extracted to /Users/andrei/my-app/node_modules/@hapi/joi (4448ms)[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m readable-stream@3.6.0 extracted to /Users/andrei/my-app/node_modules/htmlparser2/node_modules/readab[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m batch@0.6.1 extracted to /Users/andrei/my-app/node_modules/batch (422ms)[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m fs-extra@4.0.3 extracted to /Users/andrei/my-app/node_modules/workbox-build/node_modules/fs-extra (4[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m nan@2.14.1 extracted to /Users/andrei/my-app/node_modules/nan (3846ms)[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m find-up@2.1.0 extracted to /Users/andrei/my-app/node_modules/eslint-module-utils/node_modules/find-u[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m postcss-selector-parser@3.1.2 extracted to /Users/andrei/my-app/node_modules/stylehacks/node_modules[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m call-me-maybe@1.0.1 extracted to /Users/andrei/my-app/node_modules/call-me-maybe (446ms)[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m call-me-maybe@1.0.1 extracted to /Users/andrei/my-app/node_modules/call-me-maybe (446ms)[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m setprototypeof@1.1.0 extracted to /Users/andrei/my-app/node_modules/serve-index/node_modules/setprot[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m array-includes@3.1.1 extracted to /Users/andrei/my-app/node_modules/array-includes (2856ms)[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m rsvp@4.8.5 extracted to /Users/andrei/my-app/node_modules/rsvp (3550ms)[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m ms@2.0.0 extracted to /Users/andrei/my-app/node_modules/eslint-module-utils/node_modules/ms (490ms)[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m ms@2.0.0 extracted to /Users/andrei/my-app/node_modules/eslint-module-utils/node_modules/ms (490ms)[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m p-limit@1.3.0 extracted to /Users/andrei/my-app/node_modules/eslint-plugin-import/node_modules/p-lim[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m is-generator-fn@2.1.0 extracted to /Users/andrei/my-app/node_modules/is-generator-fn (374ms)[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m p-locate@2.0.0 extracted to /Users/andrei/my-app/node_modules/eslint-module-utils/node_modules/p-loc[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m p-locate@2.0.0 extracted to /Users/andrei/my-app/node_modules/eslint-module-utils/node_modules/p-loc[0m0.0 extracm             [27m[90m░░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m @types/node@14.6.4 extracted to /Users/andrei/my-app/node_modules/@types/node (5771ms)[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m is-string@1.0.5 extracted to /Users/andrei/my-app/node_modules/is-string (604ms)[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m esrecurse@4.3.0 extracted to /Users/andrei/my-app/node_modules/esrecurse (318ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m object-inspect@1.8.0 extracted to /Users/andrei/my-app/node_modules/object-inspect (1404ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m @jest/reporters@24.9.0 extracted to /Users/andrei/my-app/node_modules/@jest/reporters (1719ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m querystringify@2.2.0 extracted to /Users/andrei/my-app/node_modules/querystringify (313ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m jest-each@24.9.0 extracted to /Users/andrei/my-app/node_modules/jest-each (937ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m @types/testing-library__dom@6.14.0 extracted to /Users/andrei/my-app/node_modules/@types/testing-lib[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[⸨[7m              [27m[90m░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m @types/testing-library__dom@6.14.0 extracted to /Users/andrei/my-app/node_modules/@types/testing-lib[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m estraverse@5.2.0 extracted to /Users/andrei/my-app/node_modules/esrecurse/node_modules/estraverse (4[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m uri-js@4.4.0 extracted to /Users/andrei/my-app/node_modules/uri-js (2545ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m istanbul-lib-source-maps@3.0.6 extracted to /Users/andrei/my-app/node_modules/istanbul-lib-source-ma[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m @types/react@16.9.49 extracted to /Users/andrei/my-app/node_modules/@types/react (302ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m @types/react@16.9.49 extracted to /Users/andrei/my-app/node_modules/@types/react (302ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m punycode@2.1.1 extracted to /Users/andrei/my-app/node_modules/punycode (209ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m @types/prop-types@15.7.3 extracted to /Users/andrei/my-app/node_modules/@types/prop-types (160ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m @types/prop-types@15.7.3 extracted to /Users/andrei/my-app/node_modules/@types/prop-types (160ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m common-tags@1.8.0 extracted to /Users/andrei/my-app/node_modules/common-tags (6821ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m pretty-format@25.5.0 extracted to /Users/andrei/my-app/node_modules/@types/testing-library__react/no[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m pretty-format@25.5.0 extracted to /Users/andrei/my-app/node_modules/@types/testing-library__react/no[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠙ extractTree: [7@types/testing-library__react/no[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m ansi-regex@5.0.0 extracted to /Users/andrei/my-app/node_modules/@types/testing-library__react/node_m[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m ansi-styles@4.2.1 extracted to /Users/andrei/my-app/node_modules/@types/testing-library__react/node_[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m @types/color-name@1.1.1 extracted to /Users/andrei/my-app/node_modules/@types/color-name (130ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m color-convert@2.0.1 extracted to /Users/andrei/my-app/node_modules/@types/testing-library__react/nod[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m color-convert@2.0.1 extracted to /Users/andrei/my-app/node_modules/@types/testing-library__react/nod[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m css-tree@1.0.0-alpha.37 extracted to /Users/andrei/my-app/node_modules/css-tree (7379ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m css-tree@1.0.0-alpha.37 extracted to /Users/andrei/my-app/node_modules/css-tree (7379ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m csstype@3.0.3 extracted to /Users/andrei/my-app/node_modules/csstype (1099ms)[0m[K⸨[7m 5mextract[0m css-tree@1.0.0-alpha.37 extracted to /Users/andrei/my-app/node_modules/css-tree (7379ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m csstype@3.0.3 extracted to /Users/andrei/my-app/node_modules/csstype (1099ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m @types/yargs@15.0.5 extracted to /Users/andrei/my-app/node_modules/@types/testing-library__react/nod[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m @types/yargs@15.0.5 extracted to /Users/andrei/my-app/node_modules/@types/testing-library__react/nod[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m axobject-query@2.2.0 extracted to /Users/andrei/my-app/node_modules/axobject-query (2034ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m supports-color@7.2.0 extracted to /Users/andrei/my-app/node_modules/@types/testing-library__react/no[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m supports-color@7.2.0 extracted to /Users/andrei/my-app/node_modules/@types/testing-library__react/no[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m supports-color@7.2.0 extracted to /Users/andrei/my-app/node_modules/@types/testing-library__react/no[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m node-notifier@5.4.3 extracted to /Users/andrei/my-app/node_modules/node-notifier (2018ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m node-notifier@5.4.3 extracted to /Users/andrei/my-app/node_modules/node-notifier (2018ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m node-notifier@5.4.3 extracted to /Users/andrei/my-app/node_modules/node-notifier (2018ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m node-notifier@5.4.3 extracted to /Users/andrei/my-app/node_modules/node-notifier (2018ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m shellwords@0.1.1 extracted to /Users/andrei/my-app/noractTree: [7msill[0m [35mextract[0m growly@1.3.0 extracted to /Users/andrei/my-app/node_modules/growly (331ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m wait-for-expect@3.0.2 extracted to /Users/andrei/my-app/node_modules/wait-for-expect (386ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m wait-for-expect@3.0.2 extracted to /Users/andrei/my-app/node_modules/wait-for-expect (386ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m webpack@4.42.0 extracted to /Users/andrei/my-app/node_modules/webpack (17240ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m webpack@4.42.0 extracted to /Users/andrei/my-app/node_modules/webpack (17240ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m expect@24.9.0 extracted to /Users/andrei/my-app/node_modules/expect (3461ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m @typescript-eslint/eslint-plugin@2.34.0 extracted to /Users/andrei/my-app/node_modules/@typescript-e[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m @typescript-eslint/eslint-plugin@2.34.0 extracted to /Users/andrei/my-app/node_modules/@typescript-e[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m schema-utils@1.0.0 extracted to /Users/andrei/my-app/node_modules[7msill[0m [35mextract[0m @typescript-eslint/eslint-plugin@2.34.0 extracted to /Users/andrei/my-app/node_modules/@typescript-e[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m schema-u⸨[7m              [27m[90m░░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m @webassemblyjs/wasm-edit@1.8.5 extracted to /Users/andrei/my-app/node_modules/@webassemblyjs/wasm-ed[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m eslint-scope@4.0.3 extracted to /Users/andrei/my-app/node_modules/webpack/node_modules/eslint-scope[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m functional-red-black-tree@1.0.1 extracted to /Users/andrei/my-app/node_modules/functional-red-black-[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m pretty-format@25.5.0 extracted to /Users/andrei/my-app/node_modules/@testing-library/dom/node_module[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m tty-browserify@0.0.0 extracted to /Users/andrei/my-app/node_modules/tty-browserify (502ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m punycode@1.4.1 extracted to /Users/andrei/my-app/node_modules/node-libs-browser/node_modules/punycod[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m @webassemblyjs/helper-buffer@1.8.5 extracted to /Users/andrei/my-app/node_modules/@webassemblyjs/hel[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m node-sass@4.14.1 extracted to /Users/andrei/my-app/node_modules/node-sass (18989ms)[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m ansi-regex@5.0.0 extracted to /Users/andrei/my-app/node_modules/@testing-library/dom/node_modules/an[0m[K⸨[7m              [27m[90m░░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m ansi-styles@4.2.1 extracted to /Users/andrei/my-app/node_modules/@testing-library/dom/node_modules/a[0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m @webassemblyjs/wasm-gen@1.8.5 extracted to /Users/andrei/my-app/node_modules/@webassemblyjs/wasm-gen[0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m @webassemblyjs/ieee754@1.8.5 extracted to /Users/andrei/my-app/node_modules/@webassemblyjs/ieee754 ([0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m chokidar@2.1.8 extracted to /Users/andrei/my-app/node_modules/watchpack-chokidar2/node_modules/choki[0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m gaze@1.1.3 extracted to /Users/andrei/my-app/node_modules/gaze (501ms)[0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m async-foreach@0.1.3 extracted to /Users/andrei/my-app/node_modules/async-foreach (575ms)[0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m color-convert@2.0.1 extracted to /Users/andrei/my-app/node_modules/@testing-library/dom/node_modules[0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m @jest/types@25.5.0 extracted to /Users/andrei/my-app/node_modules/@testing-library/dom/node_modules/[0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m create-hmac@1.1.7 extracted to /Users/andrei/my-app/node_modules/create-hmac (480ms)[0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m console-control-strings@1.1.0 extracted to /Users/andrei/my-app/node_modules/console-control-strings[0m[K⸨[7m               [27m[90m░░░/andrei/my-app/node_modules/create-hmac (480ms)[0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m console-control-strings@1.1.0 extracted to /Users/andrei/my-app/node_modules/console-control-bassemblyjs/wast-parser@1.8.5 extracted to /Users/andrei/my-app/node_modules/@webassemblyjs/wast-[0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m stream-http@2.8.3 extracted to /Users/andrei/my-app/node_modules/stream-http (1995ms)[0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m camelcase@2.1.1 extracted to /Users/andrei/my-app/node_modules/camelcase (600ms)[0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m is-glob@3.1.0 extracted to /Users/andrei/my-app/node_modules/watchpack-chokidar2/node_modules/glob-p[0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m evp_bytestokey@1.0.3 extracted to /Users/andrei/my-app/node_modules/evp_bytestokey (622ms)[0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m ssri@6.0.1 extracted to /Users/andrei/my-app/node_modules/webpack/node_modules/ssri (901ms)[0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m cipher-base@1.0.4 extracted to /Users/andrei/my-app/node_modules/cipher-base (765ms)[0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m cipher-base@1.0.4 extracted to /Users/andrei/my-app/node_modules/cipher-base (765ms)[0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m acorn@6.4.1 extracted to /Users/andrei/my-app/node_modules/webpack/node_modules/acorn (3260ms)[0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m @webassemblyjs/helper-fsm@1.8.5 extracted to /Users/andrei/my-app/node_modules/@webassemblyjs/helper[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m path-type@1.1.0 extracted to /Users/andrei/my-app/node_modules/path-type (697ms)[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m yallist@2.1.2 extracted to /Users/andrei/my-app/node_modules/yallist (792ms)[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m tunnel-agent@0.6.0 extracted to /Users/andrei/my-app/node_modules/tunnel-agent (699ms)[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m array-find-index@1.0.2 extracted to /Users/andrei/my-app/node_modules/array-find-index (663ms)[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m flush-write-stream@1.1.1 extracted to /Users/andrei/my-app/node_modules/flush-write-stream (795ms)[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m has-unicode@2.0.1 extracted to /Users/andrei/my-app/node_modules/has-unicode (520ms)[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m string-width@1.0.2 extracted to /Users/andrei/my-app/node_modules/gauge/node_modules/string-width (6[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m base64-js@1.3.1 extracted to /Users/andrei/my-app/node_modules/base64-js (522ms)[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m has-flag@4.0.0 extracted to /Users/andrei/my-app/node_modules/@testing-library/dom/node_modules/has-[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m delayed-stream@1.0.0 extracted to /Users/andrei/my-app/node_modules/delayed-stream (515ms)[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m ss/has-[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m delayed-stream@1.0.0 extracted to /Users/andrei/my-app/node_modules/delayed-stream (515ms)[0m[K⸨[7m                [27m[90m░�/Users/andrei/my-app/node_modules/gauge/node_modules/is-f[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m buffer-xor@1.0.3 extracted to /Users/andrei/my-app/node_modules/buffer-xor (498ms)[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m source-map@0.4.4 extracted to /Users/andrei/my-app/node_modules/scss-tokenizer/node_modules/source-m[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m asn1.js@5.4.1 extracted to /Users/andrei/my-app/node_modules/asn1.js (1104ms)[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m strip-ansi@4.0.0 extracted to /Users/andrei/my-app/node_modules/wide-align/node_modules/strip-ansi ([0m[K⸨[7m                [27m[90m░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m eslint@7.8.1 extracted to /Users/andrei/my-app/node_modules/eslint (22512ms)[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m bn.js@4.11.9 extracted to /Users/andrei/my-app/node_modules/elliptic/node_modules/bn.js (581ms)[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m amdefine@1.0.1 extracted to /Users/andrei/my-app/node_modules/amdefine (490ms)[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m readable-stream@3.6.0 extracted to /Users/andrei/my-app/node_modules/hash-base/node_modules/readable[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m verror@1.10.0 extracted to /Users/andrei/my-app/node_modules/verror (691ms)[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m bn.js@4.11.9 extracted to /Users/andrei/my-app/node_modules/asn1.js/node_modules/bn.js (706ms)[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m ignore@4.0.6 extracted to /Users/andrei/my-app/node_modules/ignore (568ms)[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m ignore@4.0.6 extracted to /Users/andrei/my-app/node_modules/ignore (568ms)[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m json-stable-stringify-without-jsonify@1.0.1 extracted to /Users/andrei/my-app/node_modules/json-stab[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m fast-levenshtein@2.0.6 extracted to /Users/andrei/my-app/node_modules/fast-levenshtein (160ms)[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m type-check@0.4.0 extracted to /Users/andrei/my-app/node_modules/type-check (254ms)[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m cross-spawn@6.0.5 extracted to /Users/andrei/my-app/node_modules/react-scripts/node_modules/cross-sp[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m levn@0.3.0 extracted to /Users/andrei/my-app/node_modules/react-scripts/node_modules/levn (416ms)[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m sshpk@1.16.1 extracted to /Users/andrei/my-app/node_modules/sshpk (1784ms)[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m json-schema@0.2.3 extracted to /Users/andrei/my-app/node_modules/json-schema (1399ms)[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m write@1.0.3 extracted to /Users/andrei/my-app/node_modules/write (314ms)[0m[K⸨[7m                 [27m[90m░on-schema@0.2.3 extracted to /Users/andrei/my-app/node_modules/json-schema (1399ms)[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m write@1.0.3 extracted to /Users/andrei/my-app/node_modules/wrxtracted to /Users/andrei/my-app/node_modules/jest-environment-jsdom-fourteen/node_mod[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m semver@5.7.1 extracted to /Users/andrei/my-app/node_modules/react-scripts/node_modules/cross-spawn/n[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m asn1@0.2.4 extracted to /Users/andrei/my-app/node_modules/asn1 (317ms)[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m prelude-ls@1.1.2 extracted to /Users/andrei/my-app/node_modules/react-scripts/node_modules/prelude-l[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m color-name@1.1.4 extracted to /Users/andrei/my-app/node_modules/eslint/node_modules/color-name (558m[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m ecc-jsbn@0.1.2 extracted to /Users/andrei/my-app/node_modules/ecc-jsbn (722ms)[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m xml-name-validator@3.0.0 extracted to /Users/andrei/my-app/node_modules/xml-name-validator (602ms)[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m abab@2.0.4 extracted to /Users/andrei/my-app/node_modules/abab (642ms)[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m saxes@3.1.11 extracted to /Users/andrei/my-app/node_modules/saxes (725ms)[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m whatwg-url@7.1.0 extracted to /Users/andrei/my-app/node_modules/jest-environment-jsdom-fourteen/node[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m cli-width@3.0.0 extracted to /Users/andrei/my-app/node_modules/cli-width (281ms)[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m request-promise-core@1.1.4 extracted to /Users/andrei/my-app/node_modules/request-promise-core (300m[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m optionator@0.8.3 extracted to /Users/andrei/my-app/node_modules/escodegen/node_modules/optionator (2[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m emoji-regex@8.0.0 extracted to /Users/andrei/my-app/node_modules/inquirer/node_modules/emoji-regex ([0m[K⸨[7m                 [27m[90m░[0m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m regexpp@2.0.1 extracted to /Users/andrei/my-app/node_modules/react-scripts/node_modules/regexpp (178[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m acorn@7.4.0 extracted to /Users/andrei/my-app/node_modules/acorn (1739ms)[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m levn@0.3.0 extracted to /Users/andrei/my-app/node_modules/escodegen/node_modules/levn (204ms)[0m[K⸨[7m                  [27m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m prelude-ls@1.1.2 extracted to /Users/andrei/my-app/node_modules/escodegen/node_modules/prelude-ls (2[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m color-name@1.1.4 extracted to /Users/andrei/my-app/node_modules/inquirer/node_modules/color-name (78[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m color-name@1.1.4 extracted to /Users/andrei/my-app/node_modules/inquirer/node_modules/color-name (78[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m node-gyp@3.8.0 extracted to /Users/andrei/my-app/node_modules/node-gyp (6210ms)[0m[Ksill[0m [35mextract[0m color-name@1.1.4 extracted to /Users/andrei/my-app/node_modules/inquirer/node_modules/color-name (78[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m node-gyp@3.8.0 extracted to /t[0m es-to-primitive@1.2.1 extracted to /Users/andrei/my-app/node_modules/es-to-primitive (230ms)[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m ws@5.2.2 extracted to /Users/andrei/my-app/node_modules/ws (185ms)[0m[K⸨[7m                  [27m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m fstream@1.0.12 extracted to /Users/andrei/my-app/node_modules/fstream (246ms)[0m[K⸨[7m                  [27m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m fstream@1.0.12 extracted to /Users/andrei/my-app/node_modules/fstream (246ms)[0m[K⸨[7m                  [27m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m fstream@1.0.12 extracted to /Users/andrei/my-app/node_modules/fstream (246ms)[0m[K⸨[7m                  [27m⸩ ⠹ extractTree: [7msill[0m [35mextract[0m fstream@1.0.12 extracted to /Users/andrei/my-app/node_modules/fstream (246ms)[0m[K⸨[7m                  [27m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m parse5@4.0.0 extracted to /Users/andrei/my-app/node_modules/parse5 (459ms)[0m[K⸨[7m                  [27m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m parse5@4.0.0 extracted to /Users/andrei/my-app/node_modules/parse5 (459ms)[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m caniuse-lite@1.0.30001124 extracted to /Users/andrei/my-app/node_modules/caniuse-lite (24325ms)[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m caniuse-lite@1.0.30001124 extracted to /Users/andrei/my-app/node_modules/caniuse-lite (24325ms)[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m caniuse-lite@1.0.30001124 extracted to /Users/andrei/my-app/node_modules/caniuse-lite (24325ms)[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m caniuse-lite@1.0.30001124 extracted to /Users/andrei/my-app/node_modules/caniuse-lite (24325ms)[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m caniuse-lite@1.0.30001124 extracted to /Users/andrei/my-app/node_modules/caniuse-lite (24325ms)[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m caniuse-lite@1.0.30001124 extracted to /Users/andrei/my-app/node_modules/caniuse-lite (24325ms)[0m[K⸨[7m                  [27m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m acorn@5.7.4 extracted to /Users/andrei/my-app/node_modules/jsdom/node_modules/acorn (907ms)[0m[K⸨[7m                  [27m⸩ ⠴ extractTree: [7msill[0m [35mextract[0m acorn@5.7.4 extracted to /Users/andrei/my-app/node_modules/jsdom/node_modules/acorn (907ms)[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m tar@2.2.2 extracted to /Users/andrei/my-app/node_modules/tar (1004ms)[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m block-stream@0.0.9 extracted to /Users/andrei/my-app/node_modules/block-stream (59ms)[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m block-stream@0.0.9 extracted to /Users/andrei/my-app/node_modules/block-stream (59ms)[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m block-stream@0.0.9 extracted to /Users/andrei/my-app/node_modules/block-stream (59ms)[0m[K⸨[7m                  [27m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m lodash@4.17.20 extracted to /Users/andrei/my-app/node_modules/lodash (26185ms)[0m[K⸨[7m                  [27m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m lodash@4.17.20 extracted to /Users/andrei/my-app/node_modules/lodash (26185ms)[0m[K⸨[7m                  [27m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m es-abstract@1.18.0-next.0 extracted to /Usms)[0m[K⸨[7m                  [27m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m lodash@4.17.20 extracted to /Users/andrei/my-app/node_modules/lodash (26185ms)[0m[K⸨[7m                  [27m⸩ ⠧ extractTree: [7msill[0m [[K⸨[7m                  [27m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m is-negative-zero@2.0.0 extracted to /Users/andrei/my-app/node_modules/is-negative-zero (36ms)[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m is-negative-zero@2.0.0 extracted to /Users/andrei/my-app/node_modules/is-negative-zero (36ms)[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m is-negative-zero@2.0.0 extracted to /Users/andrei/my-app/node_modules/is-negative-zero (36ms)[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m is-negative-zero@2.0.0 extracted to /Users/andrei/my-app/node_modules/is-negative-zero (36ms)[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m is-negative-zero@2.0.0 extracted to /Users/andrei/my-app/node_modules/is-negative-zero (36ms)[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m is-negative-zero@2.0.0 extracted to /Users/andrei/my-app/node_modules/is-negative-zero (36ms)[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m is-negative-zero@2.0.0 extracted to /Users/andrei/my-app/node_modules/is-negative-zero (36ms)[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m is-negative-zero@2.0.0 extracted to /Users/andrei/my-app/node_modules/is-negative-zero (36ms)[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m is-negative-zero@2.0.0 extracted to /Users/andrei/my-app/node_modules/is-negative-zero (36ms)[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m is-negative-zero@2.0.0 extracted to /Users/andrei/my-app/node_modules/is-negative-zero (36ms)[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m is-negative-zero@2.0.0 extracted to /Users/andrei/my-app/node_modules/is-negative-zero (36ms)[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m is-negative-zero@2.0.0 extracted to /Users/andrei/my-app/node_modules/is-negative-zero (36ms)[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m is-negative-zero@2.0.0 extracted to /Users/andrei/my-app/node_modules/is-negative-zero (36ms)[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m is-negative-zero@2.0.0 extracted to /Users/andrei/my-app/node_modules/is-negative-zero (36ms)[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m is-negative-zero@2.0.0 extracted to /Users/andrei/my-app/node_modules/is-negative-zero (36ms)[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [7msill[0m [35mextract[0m is-negative-zero@2.0.0 extracted to /Users/andrei/my-app/node_modules/is-negative-zero (36ms)[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m core-js@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js (26582ms)[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m core-js@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js (26582ms)[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m core-js@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js (26582ms)[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m core-js@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js (26582ms)[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m core-js@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js (26582ms)[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m core-js@3.6.5 extracmodules/core-js (26582ms)[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m core-js@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js (26582ms)[0m[K⸨[7m                  [27m⸩ ⠏ extrac              [27m⸩ ⠏ extractTree: [7msill[0m [35mextract[0m core-js@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js (26582ms)[0m[K⸨[7m                  [27m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m core-js@2.6.11 extracted to /Users/andrei/my-app/node_modules/babel-runtime/node_modules/core-js (11[0m[K⸨[7m                  [27m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m core-js@2.6.11 extracted to /Users/andrei/my-app/node_modules/babel-runtime/node_modules/core-js (11[0m[K⸨[7m                  [27m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m core-js@2.6.11 extracted to /Users/andrei/my-app/node_modules/babel-runtime/node_modules/core-js (11[0m[K⸨[7m                  [27m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m core-js@2.6.11 extracted to /Users/andrei/my-app/node_modules/babel-runtime/node_modules/core-js (11[0m[K⸨[7m                  [27m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m core-js@2.6.11 extracted to /Users/andrei/my-app/node_modules/babel-runtime/node_modules/core-js (11[0m[K⸨[7m                  [27m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m core-js@2.6.11 extracted to /Users/andrei/my-app/node_modules/babel-runtime/node_modules/core-js (11[0m[K⸨[7m                  [27m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m core-js@2.6.11 extracted to /Users/andrei/my-app/node_modules/babel-runtime/node_modules/core-js (11[0m[K⸨[7m                  [27m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m core-js@2.6.11 extracted to /Users/andrei/my-app/node_modules/babel-runtime/node_modules/core-js (11[0m[K⸨[7m                  [27m⸩ ⠋ extractTree: [7msill[0m [35mextract[0m core-js@2.6.11 extracted to /Users/andrei/my-app/node_modules/babel-runtime/node_modules/core-js (11[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msillto /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K�my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m core-js-pure@3.6.5 extracted to /Users/andrei/my-app/node_modules/core-js-pure (3495ms)[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m rxjs@6.6.2 extracted to /Users/andrei/my-app/node_modules/rxjs (23128ms)[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m rxjs@6.6.2 extracted to /Users/andrei/my-app/node_modules/rxjs (23128ms)[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m rxjs@6.6.2 extracted to /Users/andrei/my-app/node_modules/rxjs (23128ms)[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m rxjs@6.6.2 extracted to /Users/andrei/my-app/node_modules/rxjs (23128ms)[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m rxjs@6.6.2 extracted to /Users/andrei/my-app/node_modules/rxjs (23128ms)[0m[K⸨[727m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m rxjs@6.6.2 extracted to /Users/andrei/my-app/node_modules/rxjs (23128ms)[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m rxjs@6.6.2 extracted to /User.2 extracted to /Users/andrei/my-app/node_modules/rxjs (23128ms)[0m[K⸨[7m                  [27m⸩ ⠸ extractTree: [7msill[0m [35mextract[0m rxjs@6.6.2 extracted to /Users/andrei/my-app/node_modules/rxjs (23128ms)[0m[K⸨[7m                  [27m⸩ ⠦ extractTree: [7msill[0m [35mextract[0m rxjs@6.6.2 extracted to /Users/andrei/my-app/node_modules/rxjs (23128ms)[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [7msill[0m [35mextract[0m rxjs@6.6.2 extracted to /Users/andrei/my-app/node_modules/rxjs (23128ms)[0m[K⸨[7m                  [27m⸩ ⠧ extractTree: [7msill[0m [35mextract[0m rxjs@6.6.2 extracted to /Users/andrei/my-app/node_modules/rxjs (23128ms)[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [7msill[0m [35mextract[0m rxjs@6.6.2 extracted to /Users/andrei/my-app/node_modules/rxjs (23128ms)[0m[K[K[?25h
+> core-js@2.6.11 postinstall /Users/andrei/my-app/node_modules/babel-runtime/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://www.patreon.com/zloirock [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+[?25l⸨[7m                  [27m⸩ ⠹ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠧ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠦ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠋ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠸ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠋ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠧ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠹ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠧ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠋ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠹ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠧ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠧ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [32minfo[0m�� ⠧ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7mtractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠹ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠦ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠋ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K⸨[7m                  [27m⸩ ⠦ extractTree: [32minfo[0m [35mlifecycle[0m core-js@2.6.11~postinstall: core-js@2.6.11[0m[K[K[?25h
+> fsevents@1.2.13 install /Users/andrei/my-app/node_modules/webpack-dev-server/node_modules/fsevents
+> node install.js
+
+No receipt for 'com.apple.pkg.CLTools_Executables' found at '/'.
+
+No receipt for 'com.apple.pkg.DeveloperToolsCLILeo' found at '/'.
+
+No receipt for 'com.apple.pkg.DeveloperToolsCLI' found at '/'.
+
+gyp: No Xcode or CLT version detected!
+[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mconfigure error[0m 
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mstack[0m Error: `gyp` failed with exit code: 1
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mstack[0m     at ChildProcess.onCpExit (/usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/configure.js:351:16)
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mstack[0m     at ChildProcess.emit (events.js:314:20)
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mstack[0m     at Process.ChildProcess._handle.onexit (internal/child_process.js:276:12)
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mSystem[0m Darwin 19.6.0
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mcommand[0m "/usr/local/bin/node" "/usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mcwd[0m /Users/andrei/my-app/node_modules/webpack-dev-server/node_modules/fsevents
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mnode -v[0m v14.9.0
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mnode-gyp -v[0m v5.1.0
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mnot ok[0m 
+[0m[?25l⸨[7m                  [27m⸩ ⠧ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K⸨[7m                  [27m⸩ ⠋ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K[K[?25h
+> fsevents@1.2.13 install /Users/andrei/my-app/node_modules/watchpack-chokidar2/node_modules/fsevents
+> node install.js
+
+No receipt for 'com.apple.pkg.CLTools_Executables' found at '/'.
+
+No receipt for 'com.apple.pkg.DeveloperToolsCLILeo' found at '/'.
+
+No receipt for 'com.apple.pkg.DeveloperToolsCLI' found at '/'.
+
+gyp: No Xcode or CLT version detected!
+[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mconfigure error[0m 
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mstack[0m Error: `gyp` failed with exit code: 1
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mstack[0m     at ChildProcess.onCpExit (/usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/configure.js:351:16)
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mstack[0m     at ChildProcess.emit (events.js:314:20)
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mstack[0m     at Process.ChildProcess._handle.onexit (internal/child_process.js:276:12)
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mSystem[0m Darwin 19.6.0
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mcommand[0m "/usr/local/bin/node" "/usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mcwd[0m /Users/an40mgyp[0m [0m[31;40mERR![0m [0m[35mSystem[0m Darwin 19.6.0
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mcommand[0m "/usr/local/bin/node" "/usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+[0m[37;4mERR![0m [0m[35mnot ok[0m 
+[0m[?25l⸨[7m                  [27m⸩ ⠇ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K⸨[7m                  [27m⸩ ⠋ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K⸨[7m                  [27m⸩ ⠸ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K⸨[7m                  [27m⸩ ⠸ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K⸨[7m                  [27m⸩ ⠴ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K⸨[7m                  [27m⸩ ⠼ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K⸨[7m                  [27m⸩ ⠧ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K⸨[7m                  [27m⸩ ⠸ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K⸨[7m                  [27m⸩ ⠹ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K[K[?25h
+> core-js@3.6.5 postinstall /Users/andrei/my-app/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+[?25l⸨[7m                  [27m⸩ ⠋ extractTree: [32minfo[0m [35mlifecycle[0m core-js@3.6.5~postinstall: core-js@3.6.5[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [32minfo[0m [35mlifecycle[0m core-js@3.6.5~postinstall: core-js@3.6.5[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [32minfo[0m [35mlifecycle[0m core-js@3.6.5~postinstall: core-js@3.6.5[0m[K⸨[7m                  [27m⸩ ⠧ extractTree: [32minfo[0m [35mlifecycle[0m core-js@3.6.5~postinstall: core-js@3.6.5[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [32minfo[0m [35mlifecycle[0m core-js@3.6.5~postinstall: core-js@3.6.5[0m[K⸨[7m                  [27m⸩ ⠧ extractTree: [32minfo[0m [35mlifecycle[0m core-js@3.6.5~postinstall: core-js@3.6.5[0m[K⸨[7m                  [27m⸩ ⠹ extractTree: [32minfo[0m [35mlifecycle[0m core-js@3.6.5~postinstall: core-js@3.6.5[0m[K⸨[7m                  [27m⸩ ⠦ extractTree: [32minfo[0m [35mlifecycle[0m core-js@3.6.5~postinstall: core-js@3.6.5[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [32minfo[0m [35mlifecycle[0m core-js@3.6.5~postinstall: core-js@3.6.5[0m[K⸨[7m                  [27m⸩ ⠸ extractTree: [32minfo[0m [35mlifecycle[0m core-js@3.6.5~postinstall: core-js@3.6.5[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [32minfo[0m [35mlifecycle[0m core-js@3.6.5~postinstall: core-js@3.6.5[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [32minfo[0m [35mlifecycle[0m core-js@3.6.5~postinstall: core-js@3.6.5[0m[K[K[?25h
+> fsevents@1.2.13 install /Users/andrei/my-app/node_modules/jest-haste-map/node_modules/fs[35mlifecycle[0m core-js@3.6.5~postinstall: core-js@3.6.5[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [32minfo[0m [35mlifecycle[0m core-js@3.6.5~postinstall: core-js@3.6.5[0m[K[K[?25h
+> fsevents@1.2.13 install /Users/e or CLT version detected!
+[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mconfigure error[0m 
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mstack[0m Error: `gyp` failed with exit code: 1
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mstack[0m     at ChildProcess.onCpExit (/usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/configure.js:351:16)
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mstack[0m     at ChildProcess.emit (events.js:314:20)
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mstack[0m     at Process.ChildProcess._handle.onexit (internal/child_process.js:276:12)
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mSystem[0m Darwin 19.6.0
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mcommand[0m "/usr/local/bin/node" "/usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mcwd[0m /Users/andrei/my-app/node_modules/jest-haste-map/node_modules/fsevents
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mnode -v[0m v14.9.0
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mnode-gyp -v[0m v5.1.0
+[0m[37;40mgyp[0m [0m[31;40mERR![0m [0m[35mnot ok[0m 
+[0m[?25l⸨[7m                  [27m⸩ ⠸ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K⸨[7m                  [27m⸩ ⠧ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K⸨[7m                  [27m⸩ ⠇ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K⸨[7m                  [27m⸩ ⠏ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K⸨[7m                  [27m⸩ ⠦ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K⸨[7m                  [27m⸩ ⠦ extractTree: [32minfo[0m [35mlifecycle[0m fsevents@1.2.13~install: fsevents@1.2.13[0m[K[K[?25h
+> core-js-pure@3.6.5 postinstall /Users/andrei/my-app/node_modules/core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+[?25l⸨[7m                  [27m⸩ ⠋ extractTree: [32minfo[0m [35mlifecycle[0m core-js-pure@3.6.5~postinstall: core-js-pure@3.6.5[0m[K⸨[7m                  [27m⸩ ⠋ extractTree: [32minfo[0m [35mlifecycle[0m core-js-pure@3.6.5~postinstall: core-js-pure@3.6.5[0m[K⸨[7m                  [27m⸩ ⠹ extractTree: [32minfo[0m [35mlifecycle[0m core-js-pure@3.6.5~postinstall: core-js-pure@3.6.5[0m[K⸨[7m                  [27m⸩ ⠴ extractTree: [32minfo[0m [35mlifecycle[0m core-js-pure@3.6.5~postinstall: core-js-pure@3.6.5[0m[K⸨[7m                  [27m⸩ ⠙ extractTree: [32minfo[0m [35mlifecycle[0m core-js-pure@3.6.5~postinstall: core-js-pure@3.6.5[0m[K⸨[7m                  [27m⸩ ⠦ extractTree: [32minfo[0m [35mlifecycle[0m core-js-pure@3.6.5~postinstall: core-js-pure@3.6.5[0m[K⸨[7m                  [27m⸩ ⠴ extractTree: [32minfo[0m [35mlifecycle[0m core-js-pure@3.6.5~postinstall: core-js-pure@3.6.5[0m[K⸨[7m                  [27m⸩ ⠋ extractTree: [32minfo[0m [35mlifecycle[0m core-js-pure@3.6.5~postinstall: core-js-pure@3.6.5[0m[K⸨[7m                  [27m⸩ ⠦ extractTree: [32minfo[0m [35mlifecycle[0m core-js-pure@3.6.5~postinstall: core-js-pure@3.6.5[0m[K⸨[7m                  [27m⸩ ⠧ extractTree: [32minfo[0m [35mlifecycle[0m core-js-pure@3.6.5~postinstall: core-js-pure@3.6.5[0m[K⸨[7m                  [27m⸩ ⠧ extractTree: [32minfo[0m [35mlifecycle[0m core-js-pure@3.6.5~postinstall: core-js-pure@3.6.5[0m[K⸨[7m                  [27m⸩ ⠦ extractTree: [32minfo[0m [35mlifecycle[0m core-js-pure@3.6.5~postinstall: core-js-pure@3.6.5[0m[K�e@3.6.5[0m[K⸨[7m                  [27m⸩ ⠧ extractTree: [32minfo[0m [35mlifecycle[0m core-js-pure@3.6.5~postinstall: core-js-pure@3.6.5[0m[K⸨[7m                  [27m⸩ ⠦ extractTree: [32minfo[0m [35mlifecycle[0m corostinstall: core-js-pure@3.6.5[0m[K[K[?25h
+> node-sass@4.14.1 install /Users/andrei/my-app/node_modules/node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.14.1/darwin-x64-83_binding.node
+[?25l⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[90m░░░░░░░░░░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[7m [27m[90m░░░░░░░░░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[7m   [27m[90m░░░░░░░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[7m    [27m[90m░░░░░░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[7m     [27m[90m░░░░░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[7m     [27m[90m░░░░░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[7m      [27m[90m░░░░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[7m       [27m[90m░░░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[7m        [27m[90m░░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[7m         [27m[90m░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[7m         [27m[90m░░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[7m          [27m[90m░░░░░░░░[0m⸩ ⠋ :[0m[K⸨[7m           [27m[90m░░░░░░░[0m⸩ ⠋ :[0m[K⸨[7m           [27m[90m░░░░░░░[0m⸩ ⠋ :[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠋ :[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠋ :[0m[K⸨[7m             [27m[90m░░░░░[0m⸩ ⠋ :[0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠋ :[0m[K⸨[7m               [27m[90m░░░[0m⸩ ⠋ :[0m[K⸨[7m                [27m[90m░░[0m⸩ ⠋ :[0m[K⸨[7m                 [27m[90m░[0m⸩ ⠋ :[0m[K⸨[7m                  [27m⸩ ⠋ :[0m[KDownload complete
+⸨[7m                  [27m⸩ ⠋ :[0m[KBinary saved to /Users/andrei/my-app/node_modules/node-sass/vendor/darwin-x64-83/binding.node
+Caching binary to /Users/andrei/.npm/_cacache/node-sass/4.14.1/darwin-x64-83_binding.node
+[K[?25h
+> node-sass@4.14.1 postinstall /Users/andrei/my-app/node_modules/node-sass
+> node scripts/build.js
+
+Binary found at /Users/andrei/my-app/node_modules/node-sass/vendor/darwin-x64-83/binding.node
+Testing binary
+Binary is fine
+[?25l⸨[7m                  [27m⸩ ⠼ extractTree: [32minfo[0m [35mlifecycle[0m node-sass@4.14.1~postinstall: node-sass@4.14.1[0m[K⸨[7m                  [27m⸩ ⠦ extractTree: [32minfo[0m [35mlifecycle[0m node-sass@4.14.1~postinstall: node-sass@4.14.1[0m[K[K[?25hadded 1706 packages in 51.527s
+
+> my-app@0.1.0 test /Users/andrei/my-app
+> react-scripts test
+
+[31m[39m
+[31mThere might be a problem with the project dependency tree.[39m
+[31mIt is likely [1mnot[22m a bug in Create React App, but something you need to fix locally.[39m
+[31m[39m
+[31m[39mThe [1mreact-scripts[22m package pro.1.0 test /Users/andrei/my-app
+> react-scripts test
+
+[31m[39m
+[31mThere might be a problem with the project dependency tree.[39m
+[31mIt is likely [1mnot[22m a bug in Create React App, but something you need to fix locally.[39m
+[3t[22m was detected higher up in the tree:
+
+  [1m[31m/Users/andrei/my-app/node_modules/eslint[39m[22m (version: [1m[31m7.8.1[39m[22m) 
+
+Manually installing incompatible versions is known to cause hard-to-debug issues.
+
+[31mIf you would prefer to ignore this check, add [1mSKIP_PREFLIGHT_CHECK=true[22m to an [1m.env[22m file in your project.[39m
+[31mThat will permanently disable this message but you might encounter other issues.[39m
+[31m[39m
+[31m[39mTo [32mfix[39m the dependency tree, try following the steps below in the exact order:
+
+  [36m1.[39m Delete [1mpackage-lock.json[22m ([4mnot[24m [1mpackage.json[22m!) and/or [1myarn.lock[22m in your project folder.
+  [36m2.[39m Delete [1mnode_modules[22m in your project folder.
+  [36m3.[39m Remove "[1meslint[22m" from [1mdependencies[22m and/or [1mdevDependencies[22m in the [1mpackage.json[22m file in your project folder.
+  [36m4.[39m Run [1mnpm install[22m or [1myarn[22m, depending on the package manager you use.
+
+In most cases, this should be enough to fix the problem.
+If this has not helped, there are a few other things you can try:
+
+  [36m5.[39m If you used [1mnpm[22m, install [1myarn[22m (http://yarnpkg.com/) and repeat the above steps with it instead.
+     This may help because npm has known issues with package hoisting which may get resolved in future versions.
+
+  [36m6.[39m Check if [1m/Users/andrei/my-app/node_modules/eslint[22m is outside your project directory.
+     For example, you might have accidentally installed something in your home folder.
+
+  [36m7.[39m Try running [1mnpm ls eslint[22m in your project folder.
+     This will tell you which [4mother[24m package (apart from the expected [1mreact-scripts[22m) installed [1meslint[22m.
+
+If nothing else helps, add [1mSKIP_PREFLIGHT_CHECK=true[22m to an [1m.env[22m file in your project.
+That would permanently disable this preflight check in case you want to proceed anyway.
+
+[36mP.S. We know this message is long but please read the steps above :-) We hope you find them helpful![39m
+[36m[39m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Test failed.  See above for more details.
+[0m[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2004hnpm cit stop[12Dcit         [9Dy  npm script stop[10Dtop       -l  help[8D.help   help npm start[?2004l
+
+> my-app@0.1.0 start /Users/andrei/my-app
+> react-scripts start
+
+[31m[39m
+[31mThere might be a problem with the project dependency tree.[39m
+[31npm cit stop[12Dcit         [9Dy  npm script stop[10Dtop       -l  help[8D.help   help npm start[?2004l
+
+> my-app@0.1.0 start /Users/andrei/my-app
+> react-scripts start
+
+[31m[39m
+[31mThere might be a problem with the project dependency tree.[39m
+[31mIt is likely [1mnot[22m a bug in Create React App, but something you need to fix locally.[39m
+[31m[39m
+[31m[39mThe [1mreact-scripts[22m package provided by Create React App requires a dependency:
+
+[32m  "[1meslint[22m": "[1m^6.6.0[22m"[39m
+[32m[39m
+[32m[39mDon't try to install it manually: your package manager does it automatically.
+However, a different version of [1meslint[22m was detected higher up in the tree:
+
+  [1m[31m/Users/andrei/my-app/node_modules/eslint[39m[22m (version: [1m[31m7.8.1[39m[22m) 
+
+Manually installing incompatible versions is known to cause hard-to-debug issues.
+
+[31mIf you would prefer to ignore this check, add [1mSKIP_PREFLIGHT_CHECK=true[22m to an [1m.env[22m file in your project.[39m
+[31mThat will permanently disable this message but you might encounter other issues.[39m
+[31m[39m
+[31m[39mTo [32mfix[39m the dependency tree, try following the steps below in the exact order:
+
+  [36m1.[39m Delete [1mpackage-lock.json[22m ([4mnot[24m [1mpackage.json[22m!) and/or [1myarn.lock[22m in your project folder.
+  [36m2.[39m Delete [1mnode_modules[22m in your project folder.
+  [36m3.[39m Remove "[1meslint[22m" from [1mdependencies[22m and/or [1mdevDependencies[22m in the [1mpackage.json[22m file in your project folder.
+  [36m4.[39m Run [1mnpm install[22m or [1myarn[22m, depending on the package manager you use.
+
+In most cases, this should be enough to fix the problem.
+If this has not helped, there are a few other things you can try:
+
+  [36m5.[39m If you used [1mnpm[22m, install [1myarn[22m (http://yarnpkg.com/) and repeat the above steps with it instead.
+     This may help because npm has known issues with package hoisting which may get resolved in future versions.
+
+  [36m6.[39m Check if [1m/Users/andrei/my-app/node_modules/eslint[22m is outside your project directory.
+     For example, you might have accidentally installed something in your home folder.
+
+  [36m7.[39m Try running [1mnpm ls eslint[22m in your project folder.
+     This will tell you which [4mother[24m package (apart from the expected [1mreact-scripts[22m) installed [1meslint[22m.
+
+If nothing else helps, add [1mSKIP_PREFLIGHT_CHECK=true[22m to an [1m.env[22m file in your project.
+That would permanently disable this preflight check in case you want to proceed anyway.
+
+[36mP.S. We know this message is long but please read the steps above :-) We hope you find them helpful![39m
+[36m[39m
+[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m my-app@0.1.0 start: `react-scripts start`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the my-app@0.1.0 start script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /Users/andrei/.npm/_logs/2020-09-06T10_31_14_157Z-debug.log
+[0m[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                   [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2004hnpm-scripts[?2004l
+zsh: command not found: npm-scripts
+[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2004hnpm-scriptsscripts [8D scripts[?2004l
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    clean-install, clean-install-test, completion, config,
+    create, ddp, dedupe, deprecate, dist-tag, docs, doctor,
+    edit, explore, fuscripts [8D scripts[?2004l
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    clean-install, clean-install-test, completion, config,
+    create, ddp, dedupe, deprecate, dist-tag, docs, doctor,
+    edit, explore, fund, get, help, help-search, hook, i, init,
+    install, install-ci-test, install-test, it, link, list, ln,
+    login, logout, ls, org, outdated, owner, pack, ping, prefix,
+    profile, prune, publish, rb, rebuild, repo, restart, root,
+    run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, team, test, token, tst, un,
+    uninstall, unpublish, unstar, up, update, v, version, view,
+    whoami
+
+npm <command> -h  quick help on <command>
+npm -l            display full usage info
+npm help <term>   search for help on <term>
+npm help npm      involved overview
+
+Specify configs in the ini-formatted file:
+    /Users/andrei/.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npmnpm scripts[8D-[7C[8D start  rstartestart[?2004l
+
+> my-app@0.1.0 start /Users/andrei/my-app
+> react-scripts start
+
+[31m[39m
+[31mThere might be a problem with the project dependency tree.[39m
+[31mIt is likely [1mnot[22m a bug in Create React App, but something you need to fix locally.[39m
+[31m[39m
+[31m[39mThe [1mreact-scripts[22m package provided by Create React App requires a dependency:
+
+[32m  "[1meslint[22m": "[1m^6.6.0[22m"[39m
+[32m[39m
+[32m[39mDon't try to install it manually: your package manager does it automatically.
+However, a different version of [1meslint[22m was detected higher up in the tree:
+
+  [1m[31m/Users/andrei/my-app/node_modules/eslint[39m[22m (version: [1m[31m7.8.1[39m[22m) 
+
+Manually installing incompatible versions is known to cause hard-to-debug issues.
+
+[31mIf you would prefer to ignore this check, add [1mSKIP_PREFLIGHT_CHECK=true[22m to an [1m.env[22m file in your project.[39m
+[31mThat will permanently disable this message but you might encounter other issues.[39m
+[31m[39m
+[31m[39mTo [32mfix[39m the dependency tree, try following the steps below in the exact order:
+
+  [36m1.[39m Delete [1mpackage-lock.json[22m ([4mnot[24m [1mpackage.json[22m!) and/or [1myarn.lock[22m in your project folder.
+  [36m2.[39m Delete [1mnode_modules[22m in your project folder.
+  [36m3.[39m Remove "[1meslint[22m" from [1mdependencies[22m and/or [1mdevDependencies[22m in the [1mpackage.json[22m file in your project folder.
+  [36m4.[39m Run [1mnpm install[22m or [1myarn[22m, depending on the package manager you use.
+
+In most cases, this should be enough to fix the problem.
+If this has not helped, there are a few other things you can try:
+
+  [36m5.[39m If you used [1mnpm[22m, install [1myarn[22m (http://yarnpkg.com/) and repeat the above steps with it instead.
+     This may help because npm has known issues with package hoisting which may get resolved in future versions.
+
+  [36m6.[39m Check if [1m/Users/andrei/my-app/node_modules/eslint[22m is outside your project directory.
+     For example, you might have accidentally installed something in your home folder.
+
+  [36m7.[39m Try running [1mnpm ls eslint[22m in your project folder.
+     This will tell you which [4mother[24m package (apart from the expected [1mreact-scripts[22m) installed [1meslint[22m.
+
+If nothing else helps, add [1mSKIP_PREFLIGHT_CHECK=true[22m to an [1m.env[22m file in your project.
+That would permanently disable this preflight check in case you want to proceed anyway.
+
+[36mP.S. We know this message is long but please read the steps above :-) We hope you find them helpful![39m
+[36m[39m
+[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m my-app@0.1.0 start: `react-scripts start`
+[0m[37;40mnpm[0m [0m[31;40mERR![ou find them helpful![39m
+[36m[39m
+[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m my-app@0.1.0 start: `react-scripts start`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the my-app@0.1.0 start script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /Users/andrei/.npm/_logs/2020-09-06T10_31_45_263Z-debug.log
+[0m[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2   /Users/andrei/.npm/_logs/2020-09-06T10_32_02_987Z-debug.log
+[0m[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2004hnpm stop my-app[11Drestart    scriptsrestart        n  nnode -v[?2004l
+v14.9.0
+[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2004hnnpm -v[?2004l
+6.14.8
+[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2004hnpm -vnode -vnpm stop my-app[11Drestart    scripts[8D-[7C[8D start  [?2004l
+
+> my-app@0.1.0 start /Users/andrei/my-app
+> react-scripts start
+
+[31m[39m
+[31mThere might be a problem with the project dependency tree.[39m
+[31mIt is likely [1mnot[22m a bug in npm -vnode -vnpm stop my-app[11Drestart    scripts[8D-[7C[8D start  [?2004l
+
+> my-app@0.1.0 start /Users/andrei/my-app
+> react-scripts start
+
+[31m[39m
+[31mThere might be a problem with the project dependency tree.[39m
+[31mIt is likely [1mnot[22m a bug in Create React App, but something you need to fix locally.[39m
+[31m[39m
+[31m[39mThe [1mreact-scripts[22m package provided by Create React App requires a dependency:
+
+[32m  "[1meslint[22m": "[1m^6.6.0[22m"[39m
+[32m[39m
+[32m[39mDon't try to install it manually: your package manager does it automatically.
+However, a different version of [1meslint[22m was detected higher up in the tree:
+
+  [1m[31m/Users/andrei/my-app/node_modules/eslint[39m[22m (version: [1m[31m7.8.1[39m[22m) 
+
+Manually installing incompatible versions is known to cause hard-to-debug issues.
+
+[31mIf you would prefer to ignore this check, add [1mSKIP_PREFLIGHT_CHECK=true[22m to an [1m.env[22m file in your project.[39m
+[31mThat will permanently disable this message but you might encounter other issues.[39m
+[31m[39m
+[31m[39mTo [32mfix[39m the dependency tree, try following the steps below in the exact order:
+
+  [36m1.[39m Delete [1mpackage-lock.json[22m ([4mnot[24m [1mpackage.json[22m!) and/or [1myarn.lock[22m in your project folder.
+  [36m2.[39m Delete [1mnode_modules[22m in your project folder.
+  [36m3.[39m Remove "[1meslint[22m" from [1mdependencies[22m and/or [1mdevDependencies[22m in the [1mpackage.json[22m file in your project folder.
+  [36m4.[39m Run [1mnpm install[22m or [1myarn[22m, depending on the package manager you use.
+
+In most cases, this should be enough to fix the problem.
+If this has not helped, there are a few other things you can try:
+
+  [36m5.[39m If you used [1mnpm[22m, install [1myarn[22m (http://yarnpkg.com/) and repeat the above steps with it instead.
+     This may help because npm has known issues with package hoisting which may get resolved in future versions.
+
+  [36m6.[39m Check if [1m/Users/andrei/my-app/node_modules/eslint[22m is outside your project directory.
+     For example, you might have accidentally installed something in your home folder.
+
+  [36m7.[39m Try running [1mnpm ls eslint[22m in your project folder.
+     This will tell you which [4mother[24m package (apart from the expected [1mreact-scripts[22m) installed [1meslint[22m.
+
+If nothing else helps, add [1mSKIP_PREFLIGHT_CHECK=true[22m to an [1m.env[22m file in your project.
+That would permanently disable this preflight check in case you want to proceed anyway.
+
+[36mP.S. We know this message is long but please read the steps above :-) We hope you find them helpful![39m
+[36m[39m
+[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m my-app@0.1.0 start: `react-scripts start`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the my-app@0.1.0 start script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /Users/andrei/.npm/_logs/2020-09-06T10_33_43_060Z-debug.log
+[0m[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandreilocally.[39m
+[31m[39m
+[31m[39mThe [1mreact-scripts[22m package provided by Create React App requires a dependency:
+
+[32m  "[1meslint[22m": "[1m^6.6.0[22m"[39m
+[32m[39m
+[32m[39mDon't try to install it manually: your package manager does it automatically.
+However, a different version of [1meslint[22m was detected higher up in the tree:
+
+  [1m[31m/Users/andrei/my-app/node_modules/eslint[39m[22m (version: [1m[31m7.8.1[39m[22m) 
+
+Manually installing incompatible versions is known to cause hard-to-debug issues.
+
+[31mIf you would prefer to ignore this check, add [1mSKIP_PREFLIGHT_CHECK=true[22m to an [1m.env[22m file in your project.[39m
+[31mThat will permanently disable this message but you might encounter other issues.[39m
+[31m[39m
+[31m[39mTo [32mfix[39m the dependency tree, try following the steps below in the exact order:
+
+  [36m1.[39m Delete [1mpackage-lock.json[22m ([4mnot[24m [1mpackage.json[22m!) and/or [1myarn.lock[22m in your project folder.
+  [36m2.[39m Delete [1mnode_modules[22m in your project folder.
+  [36m3.[39m Remove "[1meslint[22m" from [1mdependencies[22m and/or [1mdevDependencies[22m in the [1mpackage.json[22m file in your project folder.
+  [36m4.[39m Run [1mnpm install[22m or [1myarn[22m, depending on the package manager you use.
+
+In most cases, this should be enough to fix the problem.
+If this has not helped, there are a few other things you can try:
+
+  [36m5.[39m If you used [1mnpm[22m, install [1myarn[22m (http://yarnpkg.com/) and repeat the above steps with it instead.
+     This may help because npm has known issues with package hoisting which may get resolved in future versions.
+
+  [36m6.[39m Check if [1m/Users/andrei/my-app/node_modules/eslint[22m is outside your project directory.
+     For example, you might have accidentally installed something in your home folder.
+
+  [36m7.[39m Try running [1mnpm ls eslint[22m in your project folder.
+     This will tell you which [4mother[24m package (apart from the expected [1mreact-scripts[22m) installed [1meslint[22m.
+
+If nothing else helps, add [1mSKIP_PREFLIGHT_CHECK=true[22m to an [1m.env[22m file in your project.
+That would permanently disable this preflight check in case you want to proceed anyway.
+
+[36mP.S. We know this message is long but please read the steps above :-) We hope you find them helpful![39m
+[36m[39m
+[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m my-app@0.1.0 start: `react-scripts start`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the my-app@0.1.0 start script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /Users/andrei/.npm/_logs/2020-09-06T10_33_58_941Z-debug.log
+[0m[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2004hnpm start-v   node -vnpm -v start     restart[?2004l
+
+> my-app@0.1.0 start /Users/andrei/my-app
+> react-scripts start
+
+[31m[39m
+[31mThere might be a problem with the project dependency tree.[39m
+[31mIt is likely [1mnot[22m a bug in Create React App, but something you need to fix locally.[39m
+[31m[39m
+[31m[39m  restart[?2004l
+
+> my-app@0.1.0 start /Users/andrei/my-app
+> react-scripts start
+
+[31m[39m
+[31mThere might be a problem with the project dependency tree.[39m
+[31mIt is likely [1mnot[22m a bug in Create React App, but something you need to fix locally.[39m
+[31m[39m
+[31m[39mThe [1mreact-scripts[22m package provided by Create React App requires a dependency:
+
+[32m  "[1meslint[22m": "[1m^6.6.0[22m"[39m
+[32m[39m
+[32m[39mDon't try to install it manually: your package manager does it automatically.
+However, a different version of [1meslint[22m was detected higher up in the tree:
+
+  [1m[31m/Users/andrei/my-app/node_modules/eslint[39m[22m (version: [1m[31m7.8.1[39m[22m) 
+
+Manually installing incompatible versions is known to cause hard-to-debug issues.
+
+[31mIf you would prefer to ignore this check, add [1mSKIP_PREFLIGHT_CHECK=true[22m to an [1m.env[22m file in your project.[39m
+[31mThat will permanently disable this message but you might encounter other issues.[39m
+[31m[39m
+[31m[39mTo [32mfix[39m the dependency tree, try following the steps below in the exact order:
+
+  [36m1.[39m Delete [1mpackage-lock.json[22m ([4mnot[24m [1mpackage.json[22m!) and/or [1myarn.lock[22m in your project folder.
+  [36m2.[39m Delete [1mnode_modules[22m in your project folder.
+  [36m3.[39m Remove "[1meslint[22m" from [1mdependencies[22m and/or [1mdevDependencies[22m in the [1mpackage.json[22m file in your project folder.
+  [36m4.[39m Run [1mnpm install[22m or [1myarn[22m, depending on the package manager you use.
+
+In most cases, this should be enough to fix the problem.
+If this has not helped, there are a few other things you can try:
+
+  [36m5.[39m If you used [1mnpm[22m, install [1myarn[22m (http://yarnpkg.com/) and repeat the above steps with it instead.
+     This may help because npm has known issues with package hoisting which may get resolved in future versions.
+
+  [36m6.[39m Check if [1m/Users/andrei/my-app/node_modules/eslint[22m is outside your project directory.
+     For example, you might have accidentally installed something in your home folder.
+
+  [36m7.[39m Try running [1mnpm ls eslint[22m in your project folder.
+     This will tell you which [4mother[24m package (apart from the expected [1mreact-scripts[22m) installed [1meslint[22m.
+
+If nothing else helps, add [1mSKIP_PREFLIGHT_CHECK=true[22m to an [1m.env[22m file in your project.
+That would permanently disable this preflight check in case you want to proceed anyway.
+
+[36mP.S. We know this message is long but please read the steps above :-) We hope you find them helpful![39m
+[36m[39m
+[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m my-app@0.1.0 start: `react-scripts start`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the my-app@0.1.0 start script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /Users/andrei/.npm/_logs/2020-09-06T10_34_05_546Z-debug.log
+[0m[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2004hnpm restartstart  [?2004l
+
+> my-app@0.1.0 start /Users/andrei/my-app
+> react-scripts start
+
+[31m[39m
+[31mThere might be a problem with the project dependency tree.[39m
+[31mIt is likely [1mnot[22m a bug in Create React App, but something you need to fix locally.[39m
+[31m[39m
+[31m[39mThe [1mreact-scripts[22m pactart /Users/andrei/my-app
+> react-scripts start
+
+[31m[39m
+[31mThere might be a problem with the project dependency tree.[39m
+[31mIt is likely [1mnot[22m a bug in Create React App, but something you need to fix locally.[39m
+[31m[39m
+[31m[39mThe [1mreact-scripts[22m package provided by Create React App requires a dependency:
+
+[32m  "[1meslint[22m": "[1m^6.6.0[22m"[39m
+[32m[39m
+[32m[39mDon't try to install it manually: your package manager does it automatically.
+However, a different version of [1meslint[22m was detected higher up in the tree:
+
+  [1m[31m/Users/andrei/my-app/node_modules/eslint[39m[22m (version: [1m[31m7.8.1[39m[22m) 
+
+Manually installing incompatible versions is known to cause hard-to-debug issues.
+
+[31mIf you would prefer to ignore this check, add [1mSKIP_PREFLIGHT_CHECK=true[22m to an [1m.env[22m file in your project.[39m
+[31mThat will permanently disable this message but you might encounter other issues.[39m
+[31m[39m
+[31m[39mTo [32mfix[39m the dependency tree, try following the steps below in the exact order:
+
+  [36m1.[39m Delete [1mpackage-lock.json[22m ([4mnot[24m [1mpackage.json[22m!) and/or [1myarn.lock[22m in your project folder.
+  [36m2.[39m Delete [1mnode_modules[22m in your project folder.
+  [36m3.[39m Remove "[1meslint[22m" from [1mdependencies[22m and/or [1mdevDependencies[22m in the [1mpackage.json[22m file in your project folder.
+  [36m4.[39m Run [1mnpm install[22m or [1myarn[22m, depending on the package manager you use.
+
+In most cases, this should be enough to fix the problem.
+If this has not helped, there are a few other things you can try:
+
+  [36m5.[39m If you used [1mnpm[22m, install [1myarn[22m (http://yarnpkg.com/) and repeat the above steps with it instead.
+     This may help because npm has known issues with package hoisting which may get resolved in future versions.
+
+  [36m6.[39m Check if [1m/Users/andrei/my-app/node_modules/eslint[22m is outside your project directory.
+     For example, you might have accidentally installed something in your home folder.
+
+  [36m7.[39m Try running [1mnpm ls eslint[22m in your project folder.
+     This will tell you which [4mother[24m package (apart from the expected [1mreact-scripts[22m) installed [1meslint[22m.
+
+If nothing else helps, add [1mSKIP_PREFLIGHT_CHECK=true[22m to an [1m.env[22m file in your project.
+That would permanently disable this preflight check in case you want to proceed anyway.
+
+[36mP.S. We know this message is long but please read the steps above :-) We hope you find them helpful![39m
+[36m[39m
+[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m my-app@0.1.0 start: `react-scripts start`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the my-app@0.1.0 start script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /Users/andrei/.npm/_logs/2020-09-06T10_34_05_546Z-debug.log
+[0m[1m[7m%[27m[1m[0m                                                                                                                                                      [0m[27m[24m[Jandrei@Andreis-MacBook-Pro my-app % [K[?2004h

@@ -1,0 +1,151 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Quicksand;
+    }
+    
+    .weatherApp {
+        background-image: url(/images/background.jpg);
+        min-height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 5vh;
+    }
+    
+    .backBtn {
+        display: flex;
+        height: 5vh;
+        width: 5vw;
+        position: absolute;
+        padding-left: 2vw;
+        left: 0;
+        margin-bottom: 2vh;
+    }
+    
+    .backBtn img {
+        height: 5vh;
+    }
+    
+    .searchbar {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        position: absolute;
+        margin-top: 5vh;
+        min-height: 10vh;
+        z-index: 1;
+    }
+    
+    .suggestionInp {
+        border: none;
+        text-align: flex-start;
+        padding-left: 2em;
+        height: 6vh;
+        box-shadow: 0 4px 6px 0 rgba(32, 33, 36, 0.28);
+        color: #1f1f1f;
+        border-radius: 24px;
+        border-top-left-radius: 1px;
+        border-bottom-left-radius: 1px;
+        font-size: 1.3em;
+        position: relative;
+        width: 100%
+    }
+    
+    .suggestionInp:focus {
+        outline: none;
+    }
+    
+    .suggestionItems {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        list-style-image: url(/images/pin.png);
+        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+        border: 0.1em transparent;
+        border-bottom-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+        overflow: hidden;
+    }
+    
+    .search-icon {
+        display: flex;
+        align-self: center;
+        pointer-events: visible;
+        background: gray;
+        box-shadow: 0 4px 6px 0 rgba(32, 33, 36, 0.28);
+        height: 6vh;
+        border-radius: 1px;
+        border-top-left-radius: 24px;
+        border-bottom-left-radius: 24px;
+        padding: 0 2vw 0 2vw;
+    }
+    
+    .search-icon:hover {
+        cursor: pointer;
+    }
+    
+    main {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-self: flex-end;
+        margin-bottom: 20vh;
+        font-weight: 500;
+        color: #5e5e5e;
+        background: #fff;
+        opacity: 0.9;
+        border-radius: 30px;
+        box-shadow: 0 4px 6px 0 rgba(32, 33, 36, 0.28);
+        overflow: hidden;
+        justify-content: center;
+        padding: 1vh 2vw 1vh 0.5vw;
+    }
+    
+    #loadingDiv {
+        color: #fff;
+        font-size: 1em;
+    }
+    
+    @media only screen and (max-height:426px) {
+        .suggestionInp {
+            font-size: 0.7em;
+        }
+    }
+    
+    @media only screen and (min-width:601px) {
+        .suggestionInp {
+            display: flex;
+            width: 50vw;
+        }
+        .suggestionItems {
+            width: 40%;
+        }
+    }
+    
+    @media only screen and (max-width: 701px) {
+        .suggestionInp {
+            display: flex;
+            width: 70vw;
+            font-size: 0.7em;
+        }
+        .suggestionItems {
+            width: 60%;
+            font-size: 0.7em;
+        }
+    }
+    
+    @media only screen and (min-width:768px) {
+        main {
+            width: 60%;
+            font-size: 1.5em;
+            justify-content: space-evenly;
+        }
+    }
